@@ -21,7 +21,7 @@ dependencies: [
 ]
 ```
 
-Alternatively, you can add IterationX to your Xcode project by selecting `File > Swift Packages > Add Package Dependency` and entering the package repository URL: `https://github.com/Iteration-X/ios-sdk`
+Alternatively, you can add IterationX to your Xcode project by selecting `File > Swift Packages > Add Package Dependency` and entering the package repository URL: `[https://github.com/Iteration-X/ios-sdk](https://github.com/Iteration-X/IterationXSP)`
 
 
 
