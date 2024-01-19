@@ -70,6 +70,13 @@ struct SwiftUITestApp: App {
 ## Usage
 Once the IterationX package is configured, it will automatically detect screenshots taken within your app. Upon capturing a screenshot, a form will be presented, guiding the user through a series of screens where they can provide details about the issue they're reporting. This process ensures that all necessary information for bug resolution is captured efficiently.
 
+### ⚠️ Important
+
+`IterationX.enableViewControllerTracking()` uses method swizzling, if you think it could break your app, do not use it !
+
+
+
+
 
 ## Support
 If you encounter any problems or require assistance with integrating IterationX into your project, don't hesitate to reach out. Please open an issue on our GitHub repository or contact our support team directly at adrien@iterationx.io.
