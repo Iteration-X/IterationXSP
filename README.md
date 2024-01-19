@@ -71,7 +71,7 @@ struct SwiftUITestApp: App {
     init() {
         Iteration X.shared.configure(apiKey: "your-api-key", event: .screenshot)
 
-     // Optional: Enable ViewController tracking for better context in reports.
+        // Optional: Enable ViewController tracking for better context in reports.
         Iteration X.enableViewControllerTracking()
     }
     
