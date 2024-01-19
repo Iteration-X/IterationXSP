@@ -38,9 +38,6 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     // Configure IterationX with your provided API key and the screenshot event type.
     IterationX.shared.configure(apiKey: "your-api-key", event: .screenshot)
 
-    // Initialize screenshot handling.
-    IterationX.initializeScreenshotHandling()
-
     // Optional: Enable ViewController tracking for better context in reports.
     IterationX.enableViewControllerTracking()
     
@@ -56,7 +53,9 @@ struct SwiftUITestApp: App {
     
     init() {
         IterationX.shared.configure(apiKey: "your-api-key", event: .screenshot)
-        IterationX.initializeScreenshotHandling()
+
+     // Optional: Enable ViewController tracking for better context in reports.
+        IterationX.enableViewControllerTracking()
         IterationX.enableViewControllerTracking()
     }
     
