@@ -11,6 +11,16 @@ IterationX is a comprehensive bug reporting system for iOS applications, designe
 
 ## Getting Started
 
+
+## Getting your `API KEY`
+
+Navigate to [app.iterationx.com](https://app.iterationx.com/login?redirect=%2Fdashboard), select a Project 
+
+`Project` > `Settings` > Generate SDK API Key
+
+
+
+
 ## Installation
 
 IterationX can be installed using the Swift Package Manager. To include it in your project, you need to add it as a dependency in your `Package.swift` file:
@@ -22,8 +32,6 @@ dependencies: [
 ```
 
 Alternatively, you can add IterationX to your Xcode project by selecting `File > Swift Packages > Add Package Dependency` and entering the package repository URL: `https://github.com/Iteration-X/IterationXSP`
-
-
 
 
 ### Configuration
