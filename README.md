@@ -56,7 +56,6 @@ struct SwiftUITestApp: App {
 
      // Optional: Enable ViewController tracking for better context in reports.
         IterationX.enableViewControllerTracking()
-        IterationX.enableViewControllerTracking()
     }
     
     var body: some Scene {
