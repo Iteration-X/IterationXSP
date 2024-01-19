@@ -29,12 +29,6 @@ Before integrating IterationX into your iOS application, you need to obtain an A
 
 ## Getting Started
 
-Navigate to [app.iterationx.com](https://app.iterationx.com/login?redirect=%2Fdashboard), select a Project 
-
-`Project` > `Settings` > `Generate SDK API Key`
-
-
-
 
 ## Installation
 
