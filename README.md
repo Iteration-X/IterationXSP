@@ -32,7 +32,7 @@ Before integrating Iteration X into your iOS application, you need to obtain an 
 
 ## Installation
 
-Iteration X can be installed using the Swift Package Manager. To include it in your project, you need to add it as a dependency in your `Package.swift` file:
+Iteration X can be installed using the Swift Package Manager. To include it in your project, you need to add it as a dependency in your `Package.swift` file :
 
 ```swift
 dependencies: [
@@ -45,7 +45,7 @@ Alternatively, you can add Iteration X to your Xcode project by selecting `File 
 
 ### Configuration
 
-In a UIKit Swift Application : Configure the Iteration X package in your `AppDelegate.swift` as follows:
+In a UIKit Swift Application : Configure the Iteration X package in your `AppDelegate.swift` as follows :
 
 
 ```swift
