@@ -9,10 +9,25 @@ IterationX is a comprehensive bug reporting system for iOS applications, designe
 - **ViewController Tracking**: Tracks the ViewController to provide context to the reported issue.
 - **Easy Configuration**: Set up with just an API key and event type.
 
-## Getting Started
+
+## Getting Your API Key
+
+Before integrating IterationX into your iOS application, you need to obtain an API key specific to your project. This key enables the IterationX package to interact seamlessly with our servers. Follow these steps to generate your API key:
+
+### Steps to Generate Your API Key
+
+1. **Access IterationX Portal**: Visit [app.iterationx.com](https://app.iterationx.com/login?redirect=%2Fdashboard). Log in with your credentials if you're not already signed in.
+
+2. **Choose Your Project**: In the dashboard, select the project for which you want to use IterationX.
+
+3. **Navigate to Project Settings**: Go to `Project` > `Settings`.
+
+4. **Generate SDK API Key**: Inside the settings, look for the `Generate SDK API Key` option and click on it to create a new API key.
+
+5. **Copy Your API Key**: Once the API key is generated, make sure to copy it. You will need to insert this key into your project's configuration settings as outlined in the installation and configuration instructions.
 
 
-### Getting your `API KEY`
+### Getting Started
 
 Navigate to [app.iterationx.com](https://app.iterationx.com/login?redirect=%2Fdashboard), select a Project 
 
