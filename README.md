@@ -16,7 +16,7 @@ Before integrating Iteration X into your iOS application, you need to obtain an 
 
 ### Steps to Generate Your API Key
 
-1. **Access Iteration X Dashboard**: Visit [app.Iteration X.com](https://app.Iteration X.com/login?redirect=%2Fdashboard). Log in with your credentials if you're not already signed in.
+1. **Access Iteration X Dashboard**: Visit [app.Iteration X.com](https://app.iterationx.com/login?redirect=%2Fdashboard). Log in with your credentials if you're not already signed in.
 
 2. **Choose Your Project**: In the dashboard, select the project for which you want to use Iteration X.
 
