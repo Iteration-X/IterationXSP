@@ -27,7 +27,7 @@ Before integrating IterationX into your iOS application, you need to obtain an A
 5. **Copy Your API Key**: Once the API key is generated, make sure to copy it. You will need to insert this key into your project's configuration settings as outlined in the installation and configuration instructions.
 
 
-### Getting Started
+## Getting Started
 
 Navigate to [app.iterationx.com](https://app.iterationx.com/login?redirect=%2Fdashboard), select a Project 
 
