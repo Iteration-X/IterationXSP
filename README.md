@@ -16,7 +16,7 @@ IterationX is a comprehensive bug reporting system for iOS applications, designe
 
 Navigate to [app.iterationx.com](https://app.iterationx.com/login?redirect=%2Fdashboard), select a Project 
 
-`Project` > `Settings` > Generate SDK API Key
+`Project` > `Settings` > `Generate SDK API Key`
 
 
 
