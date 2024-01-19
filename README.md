@@ -12,7 +12,7 @@ IterationX is a comprehensive bug reporting system for iOS applications, designe
 ## Getting Started
 
 
-## Getting your `API KEY`
+### Getting your `API KEY`
 
 Navigate to [app.iterationx.com](https://app.iterationx.com/login?redirect=%2Fdashboard), select a Project 
 
