@@ -62,7 +62,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-In a SwiftUI Application : Configure your @main App as follows: 
+In a SwiftUI Application : Configure your @main App as follows : 
 
 ```swift
 @main
