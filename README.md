@@ -49,14 +49,14 @@ In a UIKit Swift Application : Configure the Iteration X package in your `AppDel
 
 
 ```swift
-import Iteration X
+import IterationXFramework
 
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Configure Iteration X with your provided API key and the screenshot event type.
-    Iteration X.shared.configure(apiKey: "your-api-key", event: .screenshot)
+    IterationX.shared.configure(apiKey: "your-api-key", event: .screenshot)
 
     // Optional: Enable ViewController tracking for better context in reports.
-    Iteration X.enableViewControllerTracking()
+    IterationX.enableViewControllerTracking()
     
     return true
 }
@@ -65,14 +65,17 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 In a SwiftUI Application : Configure your @main App as follows : 
 
 ```swift
+
+import IterationXFramework
+
 @main
 struct SwiftUITestApp: App {
     
     init() {
-        Iteration X.shared.configure(apiKey: "your-api-key", event: .screenshot)
+        IterationX.shared.configure(apiKey: "your-api-key", event: .screenshot)
 
         // Optional: Enable ViewController tracking for better context in reports.
-        Iteration X.enableViewControllerTracking()
+        IterationX.enableViewControllerTracking()
     }
     
     var body: some Scene {
