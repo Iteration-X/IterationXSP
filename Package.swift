@@ -12,6 +12,6 @@ let package = Package(
             targets: ["IterationXFramework"]),
     ],
     targets: [
-        .binaryTarget(name: "IterationXFramework", url: "https://github.com/Iteration-X/IterationXFramework/releases/download/1.0.1/ItxFramework.xcframework.zip", checksum: "0bde5f306c3d376f202f06fd40473661a4704101009a0782bfcc6bb592670eeb")
+        .binaryTarget(name: "IterationXFramework", url: "https://github.com/Iteration-X/IterationXFramework/releases/download/1.0.2/ItxFramework.xcframework.zip", checksum: "a2d795f1a22e52eb21ce42e11a4084aeb87cf255ba3e80755e1b1c89f3e3f7ee")
     ]
 )
