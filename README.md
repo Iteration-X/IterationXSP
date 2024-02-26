@@ -45,22 +45,35 @@ Alternatively, you can add Iteration X to your Xcode project by selecting `File 
 
 ### Configuration
 
-In a UIKit Swift Application : Configure the Iteration X package in your `AppDelegate.swift` as follows :
-
-
-```swift
+import UIKit
 import IterationXFramework
 
-func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    // Configure Iteration X with your provided API key and the screenshot event type.
-    IterationX.shared.configure(apiKey: "your-api-key", event: .screenshot)
+class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
-    // Optional: Enable ViewController tracking for better context in reports.
-    IterationX.enableViewControllerTracking()
-    
-    return true
+    var window: UIWindow?
+
+    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        // Ensure the scene being connected is a UIWindowScene
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+
+        // Initialize your window with the windowScene
+        window = UIWindow(windowScene: windowScene)
+
+        // Configure your root view controller here if not using Storyboards
+
+        // Configure Iteration X with your provided API key and the desired event type.
+        IterationX.shared.configure(apiKey: "your-api-key", event: .screenshot)
+
+        // Optional: Enable ViewController tracking for better context in reports.
+        IterationX.enableViewControllerTracking()
+
+        // Make the window key and visible
+        window?.makeKeyAndVisible()
+    }
+
+    // Implement other necessary SceneDelegate methods here
 }
-```
+
 
 In a SwiftUI Application : Configure your @main App as follows : 
 
