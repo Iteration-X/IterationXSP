@@ -45,34 +45,37 @@ Alternatively, you can add Iteration X to your Xcode project by selecting `File 
 
 ### Configuration
 
-import UIKit
-import IterationXFramework
+
+
+```swift
+import UIKit import IterationXFramework
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
-    var window: UIWindow?
+var window: UIWindow?
 
-    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Ensure the scene being connected is a UIWindowScene
-        guard let windowScene = (scene as? UIWindowScene) else { return }
+func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+    // Ensure the scene being connected is a UIWindowScene
+    guard let windowScene = (scene as? UIWindowScene) else { return }
 
-        // Initialize your window with the windowScene
-        window = UIWindow(windowScene: windowScene)
+    // Initialize your window with the windowScene
+    window = UIWindow(windowScene: windowScene)
 
-        // Configure your root view controller here if not using Storyboards
+    // Configure your root view controller here if not using Storyboards
 
-        // Configure Iteration X with your provided API key and the desired event type.
-        IterationX.shared.configure(apiKey: "your-api-key", event: .screenshot)
+    // Configure Iteration X with your provided API key and the desired event type.
+    IterationX.shared.configure(apiKey: "your-api-key", event: .screenshot)
 
-        // Optional: Enable ViewController tracking for better context in reports.
-        IterationX.enableViewControllerTracking()
+    // Optional: Enable ViewController tracking for better context in reports.
+    IterationX.enableViewControllerTracking()
 
-        // Make the window key and visible
-        window?.makeKeyAndVisible()
-    }
-
-    // Implement other necessary SceneDelegate methods here
+    // Make the window key and visible
+    window?.makeKeyAndVisible()
 }
+
+// Implement other necessary SceneDelegate methods here
+```
+
 
 
 In a SwiftUI Application : Configure your @main App as follows : 
