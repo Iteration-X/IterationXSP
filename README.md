@@ -48,7 +48,8 @@ Alternatively, you can add Iteration X to your Xcode project by selecting `File 
 
 
 ```swift
-import UIKit import IterationXFramework
+import UIKit
+import IterationXFramework
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
