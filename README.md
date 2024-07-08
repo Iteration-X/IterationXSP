@@ -36,7 +36,7 @@ Iteration X can be installed using the Swift Package Manager. To include it in y
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Iteration-X/Iteration XSP", .upToNextMajor(from: "1.0.1"))
+    .package(url: "https://github.com/Iteration-X/Iteration XSP", .upToNextMajor(from: "1.0.3"))
 ]
 ```
 
